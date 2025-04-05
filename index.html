@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Ready Player One: Dive Into the OASIS</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f4f4f4;
+      background-color: lightblue;
       color: #333;
     }
     header {
@@ -18,6 +18,18 @@
       padding: 20px;
       text-align: center;
     }
+    nav {
+      background-color: #444;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      margin: 0 12px;
+      text-decoration: none;
+      font-weight: bold;
+    }
     section {
       padding: 20px;
       max-width: 900px;
@@ -25,10 +37,46 @@
       background-color: white;
       margin-bottom: 20px;
       border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
     h2 {
       color: #0055aa;
+    }
+    .button-link {
+      display: inline-block;
+      background-color: #ff9900;
+      color: #fff;
+      padding: 12px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 20px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.3s ease;
+    }
+    .button-link:hover {
+      background-color: #cc7a00;
+    }
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+    @media (max-width: 600px) {
+      section {
+        padding: 15px;
+      }
+      h1 {
+        font-size: 1.5em;
+      }
+      h2 {
+        font-size: 1.2em;
+      }
+      nav a {
+        display: block;
+        margin: 8px 0;
+      }
     }
   </style>
 </head>
@@ -39,12 +87,21 @@
   <p>By Ernest Cline | Presented by Kangni Amouzougan</p>
 </header>
 
-<section>
+<nav>
+  <a href="#synopsis">Synopsis</a>
+  <a href="#characters">Characters</a>
+  <a href="#themes">Themes</a>
+  <a href="#oasis">OASIS</a>
+  <a href="#why">Why Read</a>
+  <a href="#resources">Resources</a>
+</nav>
+
+<section id="synopsis">
   <h2>Book Synopsis</h2>
   <p>In the year 2045, the world is consumed by poverty and environmental decay. Most people escape reality by entering the OASIS, a vast virtual reality world. When the creator of the OASIS dies, he leaves behind a quest: whoever solves the riddles and finds the Easter egg will inherit his fortune and control of the OASIS. Teenager Wade Watts joins the hunt in a race against powerful enemies.</p>
 </section>
 
-<section>
+<section id="characters">
   <h2>Main Characters</h2>
   <ul>
     <li><strong>Wade Watts / Parzival:</strong> Smart, determined gamer.</li>
@@ -54,7 +111,7 @@
   </ul>
 </section>
 
-<section>
+<section id="themes">
   <h2>Key Themes</h2>
   <ul>
     <li>Virtual Reality vs. Real Life</li>
@@ -64,30 +121,48 @@
   </ul>
 </section>
 
-<section>
+<section id="oasis">
   <h2>The OASIS World</h2>
   <p>The OASIS is an immersive VR universe filled with fantasy realms, gaming planets, and digital schools. It's where people go to escape reality, socialize, and even attend classes.</p>
 </section>
 
-<section>
+<section id="why">
   <h2>Why You Should Read It</h2>
+  <p><strong>Imagine a world where every challenge is a game, and every answer could change your life.</strong></p>
   <ul>
-    <li>Thrilling action with puzzles and gaming.</li>
-    <li>Great for fans of tech, coding, and 80s culture.</li>
-    <li>Explores real-world issues through digital escapism.</li>
-    <li>Teaches about digital identity and the ethics of tech power.</li>
+    <li><strong>Non-stop Action:</strong> From riddles to races, every chapter is packed with suspense, puzzles, and jaw-dropping virtual battles.</li>
+    <li><strong>Geek Heaven:</strong> Love coding, video games, or 80s pop culture? This book is basically made for you.</li>
+    <li><strong>Relatable Heroes:</strong> Wade and his friends are underdogs you'll root for from page one.</li>
+    <li><strong>Big Questions:</strong> It tackles real-world topics like digital identity, corporate control of tech, and what really matters—virtual fame or real-life connection?</li>
+    <li><strong>It's More Than a Book:</strong> It's a warning, a love letter to nerd culture, and a wild ride all in one.</li>
   </ul>
+  <p><strong>Whether you're a gamer, tech lover, or just want a fast-paced story with heart—<em>Ready Player One</em> is a game-changer you don't want to miss.</strong></p>
+
+  <div style="text-align: center; margin-top: 30px;">
+    <a href="https://www.amazon.com/Ready-Player-One-Ernest-Cline/dp/0307887448" 
+       target="_blank" class="button-link">
+      🎮 Buy Ready Player One on Amazon
+    </a>
+  </div>
 </section>
 
-<section>
+<section id="resources">
   <h2>Resources</h2>
   <ul>
     <li><strong>Book:</strong> Ready Player One by Ernest Cline</li>
     <li><strong>Images:</strong> Pixabay, Unsplash</li>
     <li><strong>Watch:</strong> <a href="https://www.youtube.com/watch?v=cSp1dM2Vj48" target="_blank">Official Movie Trailer</a></li>
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/cSp1dM2Vj48?si=fYa7om52DvzUjNGD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </ul>
+
+  <div style="margin-top: 20px;">
+    <iframe width="100%" height="400" src="https://www.youtube.com/embed/cSp1dM2Vj48" title="Ready Player One - Official Trailer" frameborder="0" allowfullscreen></iframe>
+  </div>
 </section>
+
+<footer>
+  <p>&copy; 2025 Kangni Amouzougan | For educational purposes only</p>
+</footer>
 
 </body>
 </html>
+
